@@ -11,5 +11,6 @@ CSS Precedence
 - Specificity determines which rule applies; for this assignment, the order is inline > internal > external. 
 
 Screeshot of my webpage:
-![image alt]()
-![image alt]()
+![image alt](https://github.com/Abdullah007-SE/26L-3068_IICT_ASSIGNMENT3/blob/main/26L-3068_IICT_Q2_SS%20(1).jpeg?raw=true)
+![image alt](https://github.com/Abdullah007-SE/26L-3068_IICT_ASSIGNMENT3/blob/main/26L-3068_IICT_Q2_SS%20(2).jpeg?raw=true)
+![image alt](https://github.com/Abdullah007-SE/26L-3068_IICT_ASSIGNMENT3/blob/main/26L-3068_IICT_Q2_SS%20(3).jpeg?raw=true)
