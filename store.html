@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Mini Store</title>
+  <link rel="stylesheet" href="store.css">
+  <style>
+    p {
+      color: #8b0000;
+      font-style: italic;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="box">
+    <h1>Cozy Corner Store</h1>
+    <p style="color: #006400;"><i>Small things I love, all in one place.</i></p>
+  </div>
+
+  <div class="box">
+    <h2>Our Products</h2>
+    <p>Everything here is something I really use and love.</p>
+
+    <div class="table-box">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="5" class="main-header">Featured Products</th>
+          </tr>
+          <tr>
+            <th>Image</th>
+            <th>Product</th>
+            <th>Price</th>
+            <th>Availability</th>
+            <th>Rating</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/notebook.png" alt="Notebook" width="100"></td>
+            <td>Notebook</td>
+            <td>Rs. 450</td>
+            <td rowspan="2">In Stock</td>
+            <td>4.8 / 5</td>
+          </tr>
+          <tr>
+            <td><img src="images/cookies.png" alt="Cookies" width="100"></td>
+            <td>Cookies Pack</td>
+            <td>Rs. 600</td>
+            <td>4.6 / 5</td>
+          </tr>
+          <tr>
+            <td><img src="images/chocolate.png" alt="Chocolate" width="100"></td>
+            <td>Chocolate Box</td>
+            <td>Rs. 900</td>
+            <td>Low Stock</td>
+            <td>4.9 / 5</td>
+          </tr>
+          <tr>
+            <td><img src="images/headphones.png" alt="Headphones" width="100"></td>
+            <td>Wireless Headphones</td>
+            <td>Rs. 3,500</td>
+            <td>Out of Stock</td>
+            <td>4.7 / 5</td>
+          </tr>
+          <tr>
+            <td><img src="images/charger.png" alt="Charger" width="100"></td>
+            <td>Phone Charger</td>
+            <td>Rs. 1,200</td>
+            <td>In Stock</td>
+            <td>4.4 / 5</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <div class="box">
+    <h2>Categories</h2>
+    <ul>
+      <li>Books
+        <ul>
+          <li>Novels</li>
+          <li>Notebooks</li>
+        </ul>
+      </li>
+      <li>Food
+        <ul>
+          <li>Cookies</li>
+          <li>Chocolate</li>
+        </ul>
+      </li>
+      <li>Gadgets
+        <ul>
+          <li>Headphones</li>
+          <li>Chargers</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+
+  <div class="box">
+    <h2>Subscribe to Updates</h2>
+    <p>Get news about new products in your inbox.</p>
+
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <fieldset>
+        <legend>Gender:</legend>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="other" name="gender" value="none">
+        <label for="other">Prefer not to say</label>
+      </fieldset>
+
+      <br>
+      <input type="checkbox" id="agree" name="agree">
+      <label for="agree">I agree to receive updates</label>
+
+      <br><br>
+      <button type="submit">Subscribe</button>
+    </form>
+  </div>
+
+  <footer class="box">
+    <h2>Quick Links</h2>
+    <p><a href="https://github.com/YourUsername/RollNo_IICT_Assignment3">My GitHub Repository</a></p>
+    <p><a href="file:///C:/Users/muham/OneDrive/Documents/store.html?fname=&email=">Previous question's page</a></p>
+  </footer>
+
+</body>
+</html>

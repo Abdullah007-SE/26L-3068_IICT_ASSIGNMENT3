@@ -1,0 +1,75 @@
+body {
+  background-color: #f4f4f9;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: #555;
+}
+
+.box {
+  background-color: white;
+  width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.table-box {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
+
+.main-header {
+  background-color: #ffd166;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #eeeeee;
+}
+
+button {
+  background: #2a9d8f;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 6px 12px;
+}
+
+button:hover {
+  background: #1f7a70;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+#name, #email {
+  width: 300px;
+  padding: 6px;
+  margin-bottom: 10px;
+}
