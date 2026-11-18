@@ -1,5 +1,5 @@
 # 26L-3068_IICT_ASSIGNMENT3
-My Mini Store
+Cozy Corner Store
 
 A small storefront featuring five products from books, food, and gadgets.
 It includes product details, categories, and a form to subscribe to updates.
